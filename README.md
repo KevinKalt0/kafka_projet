@@ -18,6 +18,11 @@ Cloner le dépôt depuis GitHub :
 - Lancer Docker Desktop
 - Lancer le serveur 🚀
     Après avoir lancer le serveur il vous faudra 2 instances : web-domains et active.web-domains (tous les 2 avec les setting par defaut)
+- npm install
+- puis vous allez lancer les 3 fichiers suivant :
+    - DomainCrawlerApplication (vérifier que le port 8080 n'est pas utilisé)
+    - DomainProcessorApplication
+    - DomainServiceApplication
 
 Voici la API sur laquelle vous déciderons de stream la data: https://domainsdb.info/
 
